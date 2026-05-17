@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import TopProducts from './Components/TopPfoducts.jsx/TopProducts';
 import Banner from './Components/Banner/Banner';
+import Subscribe from './Components/Subscribe/Subscribe';
 function App() {
  useEffect(() => {
    AOS.init({
@@ -25,6 +26,8 @@ function App() {
      <Products></Products>
      <TopProducts></TopProducts>
      <Banner></Banner>
+     <Subscribe></Subscribe>
+     <Products></Products>
     </>
   )
 }
